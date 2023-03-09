@@ -24,12 +24,12 @@ T[initial_extruder]
 {else}
 
   {if is_extruder_used[0]}
-    M104 S{temperature[0]-30} T0                    ;preheat T0
+    M104 S{first_layer_temperature[0]} T0           ;preheat T0
     M190 S{first_layer_bed_temperature[0]} C3 W2    ;wait for bed temp
 
   {else}
 
-    M104 S{temperature[1]-30} T1                    ;preheat T1
+    M104 S{first_layer_temperature[1]} T1           ;preheat T1
     M190 S{first_layer_bed_temperature[1]} C3 W2    ;wait for bed temp
 
   {endif}
@@ -70,7 +70,7 @@ G28                                                 ;home all axes
     M109 S{first_layer_temperature[1]} T1 C5 W1     ;wait for nozzle temp
     T1
     G1 Z0.8 Y-0.5 F1500                             ;move bed up fast
-    G1 X321 F6000                                   ;position nozzle
+    G1 X276 F6000                                   ;position nozzle
     G1 Z0.4 F6000                                   ;set nozzle height
     G1 X163 E22.6 F1500                             ;purge 113mm line / 22.6mm filament in 1.5sec
     {if initial_extruder == 0}G28 X F6000 {endif}   ;park
