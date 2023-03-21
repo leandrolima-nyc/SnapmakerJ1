@@ -24,9 +24,8 @@ Under Size and Coordinates > Bed Shape > Texture, upload the **SVG file**.
 
 <img width="600" alt="Bed Shape" src="https://user-images.githubusercontent.com/70433062/226751726-5a219045-3d31-4ba8-83ea-a0526985c86b.png">
 
->Just some personal preferences that can be disabled in Prusaslicer: 
-Click Printer Settings (Expert) > Custom G-code > Start G-Code Input Box
-Change {if 1 == 1} to {if 0 == 1} 
+> ⚠️ Just some personal preferences that can be disabled in Prusaslicer: Click Printer Settings (Expert) > Custom G-code > Start G-Code Input Box. <br />Change {if 1 == 1} to {if 1 == 0} 
+
 <img width="439" alt="Optional Settings" src="https://user-images.githubusercontent.com/70433062/226755114-ddd99b9b-619b-4298-b0f8-8c17e3400117.png">
 
 # Smfix Program by Dylan
@@ -35,24 +34,24 @@ This [smfix program](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) 
 
 Download the corresponding zip file for your OS.
 
-macOS (Apple Chip M1/M2)
-[smfix-darwin-arm64.zip](https://forum.snapmaker.com/uploads/short-url/dIyI73siVod9k8Pten7oztKigZh.zip) (706.5 KB)
-MD5 (ZIP): b574bf0557907af8c118a61aa3f45de1
+macOS (Apple Chip M1/M2)<br />
+[smfix-darwin-arm64.zip](https://forum.snapmaker.com/uploads/short-url/dIyI73siVod9k8Pten7oztKigZh.zip) (706.5 KB)<br />
+MD5 (ZIP): b574bf0557907af8c118a61aa3f45de1<br />
 
-macOS (Intel)
-[smfix-darwin-amd64(intel).zip](https://forum.snapmaker.com/uploads/short-url/wHbV1Di2AWU3wmXWrZWwD7sq51p.zip) (728.4 KB)
+macOS (Intel)<br />
+[smfix-darwin-amd64(intel).zip](https://forum.snapmaker.com/uploads/short-url/wHbV1Di2AWU3wmXWrZWwD7sq51p.zip) (728.4 KB)<br />
 MD5 (ZIP): d530988731691edb40e4d4f7f9d5a29d
 
-Win64
-[smfix-win64.zip](https://forum.snapmaker.com/uploads/short-url/2A3r44HtsBcSZou4Z35zkXUBWLm.zip) (745.6 KB)
+Win64<br />
+[smfix-win64.zip](https://forum.snapmaker.com/uploads/short-url/2A3r44HtsBcSZou4Z35zkXUBWLm.zip) (745.6 KB)<br />
 MD5 (ZIP): f88ad3a1a43557f77173d00e7b4e5711
 
-Win32
-[smfix-win32.zip](https://forum.snapmaker.com/uploads/short-url/2K1ApilCXITTfWwU2GwoAUuWDDF.zip) (745.4 KB)
+Win32<br />
+[smfix-win32.zip](https://forum.snapmaker.com/uploads/short-url/2K1ApilCXITTfWwU2GwoAUuWDDF.zip) (745.4 KB)<br />
 MD5 (ZIP): 8899edfc8faff144ad685ee040a29e3f
 
-Unzip the file into a path that contains no space. For example: 
-**windows**		$ *D:\smfix\smfix-win64.exe*
+Unzip the file into a path that contains no space. For example: <br />
+**windows**		$ *D:\smfix\smfix-win64.exe*<br />
 **Mac**				$ *~/Applications/PrusaSlicer/smfix-darwin-arm64*
 
 On Prusaslicer, click **Print Settings (Expert)** > **Output Options**, and enter the path above into the Post-processing scripts input box.
