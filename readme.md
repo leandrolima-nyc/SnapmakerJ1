@@ -1,3 +1,5 @@
+# Snapmaker J1 config files for PrusaSlicer
+
 ## Instructions for importing Profile
 
 ### Download
