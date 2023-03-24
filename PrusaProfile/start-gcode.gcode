@@ -62,7 +62,7 @@ T[initial_extruder]
   M355 S1 P255
 {endif}
 
-{if 1==1 && !has_wipe_tower}                        ;purge line   -----------OPTIONAL    
+{if 1==1}                                           ;purge line   -----------OPTIONAL    
   {if is_extruder_used[0]}
     M109 S{first_layer_temperature[0]} T0 C5 W1     ;wait for nozzle temp
     T0
