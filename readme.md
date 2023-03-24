@@ -1,8 +1,23 @@
 # Snapmaker J1 config files for PrusaSlicer
+> ⚠️  You need to have Prusa Slicer 2.6 alpha 3 or a newer version installed
+
+This is a remix of [Dylan @macdylan and McGybeer @McGybeer from the community](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796)
+
+Unfortunately, that profile didn't have the capability to detect whether the second extruder was being used or not. This made it difficult to set the appropriate pre-heat settings for nozzle and bed temperature, as well as prime the extruder(s).
+
+However, a new variable called "is_extruder_used" has been introduced in PrusaSlicer 2.6_alpha3, which now enables us to detect whether the second extruder is being used and adjust the settings accordingly.
+
+As a result, I have updated the gcode to consider all possible scenarios for both single and dual extruder use. 
+
+In addition, I have also made some adjustments to the printer settings that will help to enhance the print quality and minimize any potential issues that may arise during the printing process. Overall, these changes will ensure a smoother and more efficient printing experience.
+
+> ⛔️  Before you proceed, remove all references to Snapmaker or J1 from the PrintSettings, Filament Setting, and Printer Settings to avoid any remnants from the previous configuration imports.
 
 ## Instructions for importing Profile
 
 ### Download
+[**PrusaSlicer 2.6.0-alpha3 or a newer version**](https://github.com/prusa3d/PrusaSlicer/tags)
+
 [**Prusa Slicer bundled profile.ini**](https://github.com/leandrolima-nyc/SnapmakerJ1/blob/main/PrusaProfile/SnapmakerJ1-PrusaSlicer_Config_Bundle%28by%20ne0%29.ini)
 
 [**J1 Bed Shape.svg**](https://github.com/leandrolima-nyc/SnapmakerJ1/blob/main/PrusaProfile/j1%20%28googliola%29.svg)
@@ -55,6 +70,9 @@ MD5 (ZIP): 8899edfc8faff144ad685ee040a29e3f
 Unzip the file into a path that contains no space. For example: <br />
 **windows**		$ *D:\smfix\smfix-win64.exe*<br />
 **Mac**				$ *~/Applications/PrusaSlicer/smfix-darwin-arm64*
+
+>You may have to change the permission for in terminal with the following command: <br />
+chmod 755 *~/Applications/PrusaSlicer/smfix-darwin-arm64*
 
 On Prusaslicer, click **Print Settings (Expert)** > **Output Options**, and enter the path above into the Post-processing scripts input box.
 
