@@ -12,23 +12,36 @@
 ; ----- is_extruder_used (0): {is_extruder_used[0]}
 ; ----- is_extruder_used (1): {is_extruder_used[1]}
 
-M355 S1 P16    ;------------OPTIONAL                ;dim led 
+M201 X20000 Y20000 Z500 E3000                       ;snapmaker settings
+
+
+{if 1==1}      ;------------OPTIONAL                
+M355 S1 P16                                         ;dim led 
+{endif}
+
 M82                                                 ;absolute extrusion mode
 T[initial_extruder]
 
 {if is_extruder_used[0] && is_extruder_used[1]}
+  T0
+  G1 X-5  F6000
   M104 S{first_layer_temperature[0]} T0             ;preheat T0
+
+  T1
+  G1 X332 F6000
   M104 S{first_layer_temperature[1]} T1             ;preheat T1
+
   M190 S{(bed_temperature[0] > bed_temperature[1] ? bed_temperature[0] : bed_temperature[1] )} ;wait for bed temp
 
 {else}
 
   {if is_extruder_used[0]}
+    G1 X-5  F6000
     M104 S{first_layer_temperature[0]} T0           ;preheat T0
     M190 S{first_layer_bed_temperature[0]} C3 W2    ;wait for bed temp
 
   {else}
-
+    G1 X332 F6000
     M104 S{first_layer_temperature[1]} T1           ;preheat T1
     M190 S{first_layer_bed_temperature[1]} C3 W2    ;wait for bed temp
 
@@ -49,11 +62,7 @@ T[initial_extruder]
   M355 S1 P255
 {endif}
 
-
-M201 X20000 Y20000 Z500 E3000                       ;snapmaker settings
-G28                                                 ;home all axes
-
-{if 1 == 1}       ;-----------OPTIONAL              ;purge line
+{if 1==1 && !has_wipe_tower}                        ;purge line   -----------OPTIONAL    
   {if is_extruder_used[0]}
     M109 S{first_layer_temperature[0]} T0 C5 W1     ;wait for nozzle temp
     T0
