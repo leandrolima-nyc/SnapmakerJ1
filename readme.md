@@ -1,7 +1,7 @@
 # Snapmaker J1 config files for PrusaSlicer
 > ⚠️  You need to have Prusa Slicer 2.6 alpha 3 or a newer version installed
 
-This is a remix of [Dylan @macdylan and McGybeer @McGybeer from the community](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796)
+This is a remix of [Dylan @macdylan and McGybeer @McGybeer from the community](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796).  The bundle includes the original Printer Settings and Print profile for comparison purposes. By default, the correct profiles are selected and ready for printing.
 
 Unfortunately, that profile didn't have the capability to detect whether the second extruder was being used or not. This made it difficult to set the appropriate pre-heat settings for nozzle and bed temperature, as well as prime the extruder(s).
 
