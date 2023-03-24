@@ -11,6 +11,8 @@ As a result, I have updated the gcode to consider all possible scenarios for bot
 
 In addition, I have also made some adjustments to the printer settings that will help to enhance the print quality and minimize any potential issues that may arise during the printing process. Overall, these changes will ensure a smoother and more efficient printing experience.
 
+> 🪄 As long as your project uses a single extruder, you can select mirror, copy, or backup after loading the gcode on the printer.
+
 > ⛔️  Before you proceed, remove all references to Snapmaker or J1 from the PrintSettings, Filament Setting, and Printer Settings to avoid any remnants from the previous configuration imports.
 
 ## Instructions for importing Profile
@@ -74,7 +76,10 @@ Unzip the file into a path that contains no space. For example: <br />
 **Mac**				$ *~/Applications/PrusaSlicer/smfix-darwin-arm64*
 
 >You may have to change the permission for in terminal with the following command: <br />
-chmod 755 *~/Applications/PrusaSlicer/smfix-darwin-arm64*
+chmod 755 *~/Applications/PrusaSlicer/smfix-darwin-arm64*<br /><br />
+To ensure that the path is correct, you can use drag and drop into PrusaSlicer post-processing. Similarly, when setting permissions, type “chmod 755” in the terminal and drag the file into the terminal. To verify that the permission is set correctly just type
+```ls -l [file]``` and it should show
+```-rwxr-xr-x@ [file]```
 
 On Prusaslicer, click **Print Settings (Expert)** > **Output Options**, and enter the path above into the Post-processing scripts input box.
 
@@ -110,7 +115,10 @@ Place the file into a path that contains no space. For example: <br />
 **Mac**			$ *~/Applications/PrusaSlicer/j1upload-darwin-arm64*
 
 >You may have to change the permission for in terminal with the following command: <br />
-chmod 755 *~/Applications/PrusaSlicer/j1upload-darwin-arm64*
+chmod 755 *~/Applications/PrusaSlicer/j1upload-darwin-arm64*<br /><br />
+To ensure that the path is correct, you can use drag and drop into PrusaSlicer post-processing. Similarly, when setting permissions, type “chmod 755” in the terminal and drag the file into the terminal. To verify that the permission is set correctly just type
+```ls -l [file]``` and it should show
+```-rwxr-xr-x@ [file]```
 
 On Prusaslicer, click **Print Settings (Expert)** > **Output Options**, and enter the path above into the Post-processing scripts input box.
 
