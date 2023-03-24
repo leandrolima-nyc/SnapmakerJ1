@@ -1,5 +1,5 @@
-# Snapmaker J1 config files for PrusaSlicer
-> ⚠️  You need to have Prusa Slicer 2.6 alpha 3 or a newer version installed
+# Snapmaker J1 config files for [PrusaSlicer](https://help.prusa3d.com/category/prusaslicer_204)
+> ⚠️  You need to have [Prusa Slicer 2.6 alpha 3 or a newer](https://github.com/prusa3d/PrusaSlicer/tags) version installed
 
 This is a remix of [Dylan @macdylan and McGybeer @McGybeer from the community](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796).  The bundle includes the original Printer Settings and Print profile for comparison purposes. By default, the correct profiles are selected and ready for printing.
 
