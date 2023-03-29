@@ -1,7 +1,7 @@
 # Snapmaker J1 config files for [PrusaSlicer](https://help.prusa3d.com/category/prusaslicer_204)
 > ⚠️  You need to have [Prusa Slicer 2.6 alpha 3 or a newer](https://github.com/prusa3d/PrusaSlicer/tags) version installed
 
-This is a remix of [Dylan @macdylan and McGybeer @McGybeer from the community](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796).  The bundle includes the original Printer Settings and Print profile for comparison purposes. By default, the correct profiles are selected and ready for printing.
+This is a remix of [Dylan @macdylan and McGybeer @McGybeer from the community](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796).  
 
 Unfortunately, that profile didn't have the capability to detect whether the second extruder was being used or not. This made it difficult to set the appropriate pre-heat settings for nozzle and bed temperature, as well as prime the extruder(s).
 
@@ -10,6 +10,8 @@ However, a new variable called "is_extruder_used" has been introduced in PrusaSl
 As a result, I have updated the gcode to consider all possible scenarios for both single and dual extruder use. 
 
 In addition, I have also made some adjustments to the printer settings that will help to enhance the print quality and minimize any potential issues that may arise during the printing process. Overall, these changes will ensure a smoother and more efficient printing experience.
+
+The package also includes Printer Settings and Print profile from Dylan/McGybeer, which can be used for comparison purposes. You are free to remove any components that you do not need. The appropriate profiles are preselected by default and are ready for printing.
 
 > 🪄 As long as your project uses a single extruder, you can select mirror, copy, or backup after loading the gcode on the printer.
 
@@ -36,8 +38,7 @@ On Prusaslicer, click File > Import > Import Config, and select the **.ini** fil
 Click Printer Settings (Expert) > General. 
 In the Firmware section, specify the following settings:
 
-<img width="600" alt="Firmware Settings" src="https://user-images.githubusercontent.com/70433062/226754819-c4586124-6107-4479-96f5-9beb366054eb.png">
-
+<img width="600" alt="Firmware Settings" src="https://user-images.githubusercontent.com/70433062/228440309-9b502ebc-336e-4eb2-a4ef-66149bc066d7.png">
 Under Size and Coordinates > Bed Shape > Texture, upload the **SVG file**.
 
 <img width="600" alt="Bed Shape" src="https://user-images.githubusercontent.com/70433062/227600306-87696b25-2071-4312-a0c4-d2de97e9b2ff.png">
@@ -99,7 +100,7 @@ Click **Custom G-code**, and make sure you have the following G-code into the **
 
 > ⚠️ The above G-code is important and necessary for the Copy and Mirror modes.  If missing or not added correctly, there are chances that extruders will hit the bed due to wrong orientation calculations.
 
- <br /> <br />
+<br /> <br />
 # J1 auto-upload by [@kanocz](https://github.com/kanocz)
 
 After saving the gcode file to a local folder, it will be automatically uploaded to the J1. You can access it by selecting it from the list of files displayed on the J1's screen. 
@@ -125,8 +126,19 @@ On Prusaslicer, click **Print Settings (Expert)** > **Output Options**, and ente
 <img width="800" alt="Print Settings - Post-Processing Scripts" src="https://user-images.githubusercontent.com/70433062/227600453-fc0d071a-64e8-4ff9-ad9e-e7c2ea06d089.png">
 
 
+# Multiple extruder
+
+Prusa bundle profile as it does not save the purging setting for some reason. To resolve this, you need to adjust it manually.
+> ✏️ Make sure to enable the wipe tower in Printer Settings > Multiple Extruder. <br />
+<img width="500" alt="Print Settings / Multiple Extruder / Wipe Tower" src="https://user-images.githubusercontent.com/70433062/228439301-8e2780f2-d863-414f-9d56-07c60ce89689.png">
+
+Although there is no scientific explanation behind it, the community recommends 5 ㎣ as a best practice for dual color printing.
+
+> 💡 Keep in mind that you have the freedom to drag and position the tower wherever you prefer on the print bed. <br />
+<img width="500" alt="Purge Settings" src="https://user-images.githubusercontent.com/70433062/228437183-76af166a-0a64-49bb-b9b5-6b5324239f30.png">
 
 
 
-Source:
-*https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796*
+
+
+
