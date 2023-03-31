@@ -129,7 +129,7 @@ On Prusaslicer, click **Print Settings (Expert)** > **Output Options**, and ente
 # Multiple extruder
 
 PrusaSlicer does not store the purging setting on the bundle profile. Therefore, you'll need to make the adjustment manually to ensure it is set correctly.
-> ⚠️ Make sure to enable the wipe tower in Printer Settings > Multiple Extruder. <br />
+> ⚠️ Make sure to enable the wipe tower in Print Settings > Multiple Extruder. <br />
 <img width="500" alt="Print Settings / Multiple Extruder / Wipe Tower" src="https://user-images.githubusercontent.com/70433062/228439301-8e2780f2-d863-414f-9d56-07c60ce89689.png">
 
 Although there is no scientific explanation behind it, the community recommends 5 ㎣ as a best practice for dual color printing.
