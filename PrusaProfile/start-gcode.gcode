@@ -13,7 +13,7 @@
 ; ----- is_extruder_used (1): {is_extruder_used[1]}
 
 M201 X20000 Y20000 Z500 E3000                       ;snapmaker settings
-
+G28                                                 ;home
 
 {if 1==1}      ;------------OPTIONAL                
 M355 S1 P16                                         ;dim led 
