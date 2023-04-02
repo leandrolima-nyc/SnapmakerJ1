@@ -84,6 +84,8 @@ To ensure that the path is correct, you can use drag and drop into PrusaSlicer p
 
 On Prusaslicer, click **Print Settings (Expert)** > **Output Options**, and enter the path above into the Post-processing scripts input box.
 
+> ‼️ Please keep in mind that each print profile must be updated to include the new path.
+
 <img width="800" alt="Print Settings" src="https://user-images.githubusercontent.com/70433062/226758407-d1010d49-ba40-414b-9730-8d36d182c3d7.png">
 
 Click **Custom G-code**, and make sure you have the following G-code into the **End G-code input** box.
@@ -122,6 +124,8 @@ To ensure that the path is correct, you can use drag and drop into PrusaSlicer p
 ```-rwxr-xr-x@ [file]```
 
 On Prusaslicer, click **Print Settings (Expert)** > **Output Options**, and enter the path above into the Post-processing scripts input box.
+
+> ‼️ Please keep in mind that each print profile must be updated to include the new path.
 
 <img width="800" alt="Print Settings - Post-Processing Scripts" src="https://user-images.githubusercontent.com/70433062/227600453-fc0d071a-64e8-4ff9-ad9e-e7c2ea06d089.png">
 
