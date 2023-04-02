@@ -43,9 +43,24 @@ Under Size and Coordinates > Bed Shape > Texture, upload the **SVG file**.
 
 <img width="600" alt="Bed Shape" src="https://user-images.githubusercontent.com/70433062/227600306-87696b25-2071-4312-a0c4-d2de97e9b2ff.png">
 
-> ⚠️ Just some personal preferences that can be disabled in Prusaslicer: Click Printer Settings (Expert) > Custom G-code > Start G-Code Input Box. <br />Change {if 1 == 1} to {if 1 == 0} 
+### 🚀 SAVE PRINTER SETTINGS ‼️
+It was brought to my attention that PrusaSlicer might prompt you to save changes to the print profile but doesn't save printer settings. 
+To avoid any confusion, it's important to manually save it before you close the application.
 
-<img width="439" alt="Optional Settings" src="https://user-images.githubusercontent.com/70433062/226755114-ddd99b9b-619b-4298-b0f8-8c17e3400117.png">
+<img width="600" alt="Save Profile" src="https://user-images.githubusercontent.com/70433062/229342500-414158e9-4279-4fae-96cc-7ef340e4db86.png">
+
+<img width="500" alt="Save Profile" src="https://user-images.githubusercontent.com/70433062/229342904-a0bce5ec-f117-42d2-9224-5b2055e0aae4.png">
+
+### 📌 Optionals 
+There are certain personal preferences that you can disable if you wish. To do so, follow these steps:
+```
+1.  Click on "Printer Settings (Expert)"
+2.  Go to "Custom G-code"
+3.  Click on the "Start G-Code Input Box"
+4.  Change "{if 1 == 1}" to "{if 1 == 0}"
+```
+<img width="500" alt="Optional Settings" src="https://user-images.githubusercontent.com/70433062/229344557-d3a90362-1355-4426-9ba7-011db8cb2fad.png">
+
 
  <br /> <br />
 # Smfix Program by Dylan
