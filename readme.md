@@ -163,7 +163,6 @@ I've received some requests for Snapmaker discounts, and I'd be glad to share th
 🇪🇺 [EU 10% OFF](https://bit.ly/snapEU10OFF)<br />
 🇺🇸 [US 10% OFF](https://bit.ly/snapUS10OFF)<br />
 🌎 [Global 10% OFF](https://bit.ly/snap10OFF)<br />
-<a href="placeholder.com" target="_blank">placeholder.com</a>
 
 **Filament 15%**<br />
 ```3DFILAMENTS15```<br />
