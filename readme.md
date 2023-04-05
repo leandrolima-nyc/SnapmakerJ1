@@ -170,7 +170,7 @@ I've received some requests for Snapmaker discounts, and I'd be glad to share th
 **Accessories 20%**<br />
 ```J1SAVE20```<br />
 
-**Miscellaneous (one time only)**<br />
+**Miscellaneous** (one time only)<br />
 ``` 355TW0Z4I ``` 10USD<br />
 ```8HEX9SUUL``` $30 off for TPU Filament
 
