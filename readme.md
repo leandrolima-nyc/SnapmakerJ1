@@ -156,6 +156,23 @@ Although there is no scientific explanation behind it, the community recommends 
 > 💡 Keep in mind that you have the freedom to drag and position the tower wherever you prefer on the print bed. <br />
 <img width="500" alt="Purge Settings" src="https://user-images.githubusercontent.com/70433062/228437183-76af166a-0a64-49bb-b9b5-6b5324239f30.png">
 
+# Coupon and discount codes
+I've received some requests for Snapmaker discounts, and I'd be glad to share them with you. Just wanted to let you know that unfortunately the coupons cannot be combined. However, you can still make multiple purchases to take advantage of the different discounts available. And if you run into any issues with the codes, don't hesitate to contact. I hope this helps you save some money on your purchase!
+
+**Printer 10% off**<br />
+🇪🇺 [EU 10% OFF](bit.ly/snapEU10OFF)<br />
+🇺🇸 [US 10% OFF](bit.ly/snapUS10OFF)<br />
+🌎 [Global 10% OFF](bit.ly/snap10OFF)<br />
+
+**Filament 15%**<br />
+```3DFILAMENTS15```<br />
+
+**Accessories 20%**<br />
+```J1SAVE20```<br />
+
+**Miscellaneous (one time only)**<br />
+``` 355TW0Z4I ``` 10USD<br />
+```8HEX9SUUL``` $30 off for TPU Filament
 
 
 
