@@ -1,3 +1,5 @@
+<base target="_blank">
+
 # Snapmaker J1 config files for [PrusaSlicer](https://help.prusa3d.com/category/prusaslicer_204)
 > ⚠️  You need to have [Prusa Slicer 2.6 alpha 3 or a newer](https://github.com/prusa3d/PrusaSlicer/tags) version installed
 
@@ -160,9 +162,9 @@ Although there is no scientific explanation behind it, the community recommends 
 I've received some requests for Snapmaker discounts, and I'd be glad to share them with you. Just wanted to let you know that unfortunately the coupons cannot be combined. However, you can still make multiple purchases to take advantage of the different discounts available. And if you run into any issues with the codes, don't hesitate to contact. I hope this helps you save some money on your purchase!
 
 **Printer 10% off**<br />
-🇪🇺 [EU 10% OFF](https://bit.ly/snapEU10OFF){:target="_blank" rel="noopener"}<br />
-🇺🇸 [US 10% OFF](https://bit.ly/snapUS10OFF){:target="_blank" rel="noopener"}<br />
-🌎 [Global 10% OFF](https://bit.ly/snap10OFF){:target="_blank" rel="noopener"}<br />
+🇪🇺 [EU 10% OFF](https://bit.ly/snapEU10OFF)<br />
+🇺🇸 [US 10% OFF](https://bit.ly/snapUS10OFF)<br />
+🌎 [Global 10% OFF](https://bit.ly/snap10OFF)<br />
 
 **Filament 15%**<br />
 ```3DFILAMENTS15```<br />
