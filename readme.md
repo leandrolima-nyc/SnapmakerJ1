@@ -1,5 +1,3 @@
-<base target="_blank">
-
 # Snapmaker J1 config files for [PrusaSlicer](https://help.prusa3d.com/category/prusaslicer_204)
 > ⚠️  You need to have [Prusa Slicer 2.6 alpha 3 or a newer](https://github.com/prusa3d/PrusaSlicer/tags) version installed
 
@@ -165,6 +163,7 @@ I've received some requests for Snapmaker discounts, and I'd be glad to share th
 🇪🇺 [EU 10% OFF](https://bit.ly/snapEU10OFF)<br />
 🇺🇸 [US 10% OFF](https://bit.ly/snapUS10OFF)<br />
 🌎 [Global 10% OFF](https://bit.ly/snap10OFF)<br />
+<a href="https://bit.ly/snap10OFF" target="_blank">Opens in new tab</a>
 
 **Filament 15%**<br />
 ```3DFILAMENTS15```<br />
