@@ -69,21 +69,8 @@ This [smfix program](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) 
 
 ### Download the corresponding zip file for your OS.
 
-macOS (Apple Chip M1/M2)<br />
-[smfix-darwin-arm64.zip](https://forum.snapmaker.com/uploads/short-url/dIyI73siVod9k8Pten7oztKigZh.zip) (706.5 KB)<br />
-MD5 (ZIP): b574bf0557907af8c118a61aa3f45de1<br />
-
-macOS (Intel)<br />
-[smfix-darwin-amd64(intel).zip](https://forum.snapmaker.com/uploads/short-url/wHbV1Di2AWU3wmXWrZWwD7sq51p.zip) (728.4 KB)<br />
-MD5 (ZIP): d530988731691edb40e4d4f7f9d5a29d
-
-Win64<br />
-[smfix-win64.zip](https://forum.snapmaker.com/uploads/short-url/2A3r44HtsBcSZou4Z35zkXUBWLm.zip) (745.6 KB)<br />
-MD5 (ZIP): f88ad3a1a43557f77173d00e7b4e5711
-
-Win32<br />
-[smfix-win32.zip](https://forum.snapmaker.com/uploads/short-url/2K1ApilCXITTfWwU2GwoAUuWDDF.zip) (745.4 KB)<br />
-MD5 (ZIP): 8899edfc8faff144ad685ee040a29e3f
+[**smfix-file**](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor/releases)
+<br />
 
 ### Instructions
 
@@ -170,10 +157,8 @@ I've received some requests for Snapmaker discounts, and I'd be glad to share th
 **Accessories 20%**<br />
 ```J1SAVE20```<br />
 
-**Miscellaneous** (one time only)<br />
-```355TW0Z4I``` 10USD<br />
-```DMSAVE25``` 25USD<br />
-```8HEX9SUUL``` 30USD TPU Filament
+**Sitewide 25USD**<br />
+```DMSAVE25```<br />
 
 
 
