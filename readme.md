@@ -44,14 +44,18 @@ In the Firmware section, specify the following settings:
 Under Size and Coordinates > Bed Shape > Texture, upload the [**J1 Bed Texture.svg**](https://github.com/leandrolima-nyc/SnapmakerJ1/blob/main/PrusaProfile/j1-texture.svg) <br />
 Under Size and Coordinates > Bed Shape > Model, upload the [**J1 Bed Shape.stl**](https://github.com/leandrolima-nyc/SnapmakerJ1/blob/main/PrusaProfile/druckbett_j1.stl)
 
-<img width="600" alt="Bed Shape" src="https://user-images.githubusercontent.com/70433062/235687683-98b52e70-f3ce-4852-8ed2-a479cd6e73f2.png">
+<p>
+<img width="400" alt="Bed Texture Settings" src="https://user-images.githubusercontent.com/70433062/235709902-00bfd27d-fcec-47f7-979a-00ccdae52acf.png" hspace="20" > <img width="435" alt="Bed Texture" src="https://user-images.githubusercontent.com/70433062/235707900-01e46c4f-e59f-464b-98b5-fa08d3f3842c.png" hspace="10" >
+</p>
+
+
+
 
 ### 🚀 SAVE PRINTER SETTINGS ‼️
 It was brought to my attention that PrusaSlicer might prompt you to save changes to the print profile but doesn't save printer settings. 
 To avoid any confusion, it's important to manually save it before you close the application.
 
 <img width="600" alt="Save Profile" src="https://user-images.githubusercontent.com/70433062/229342500-414158e9-4279-4fae-96cc-7ef340e4db86.png">
-
 <img width="500" alt="Save Profile" src="https://user-images.githubusercontent.com/70433062/229342904-a0bce5ec-f117-42d2-9224-5b2055e0aae4.png">
 
 ### 📌 Optionals 
