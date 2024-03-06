@@ -152,7 +152,7 @@ Although there is no scientific explanation behind it, the community recommends 
 # Coupon and discount codes
 I've received some requests for Snapmaker discounts, and I'd be glad to share them with you. Just wanted to let you know that unfortunately the coupons cannot be combined. However, you can still make multiple purchases to take advantage of the different discounts available. And if you run into any issues with the codes, don't hesitate to contact. I hope this helps you save some money on your purchase!
 
-**Printer 10% off**<br />
+**Printer $100 off**<br />
 🇪🇺 [EU 10% OFF](https://bit.ly/snapEU10OFF)<br />
 🇺🇸 [US 10% OFF](https://bit.ly/snapUS10OFF)<br />
 🌎 [Global 10% OFF](https://bit.ly/snap10OFF)<br />
