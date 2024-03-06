@@ -17,6 +17,9 @@ The package also includes Printer Settings and Print profile from Dylan/McGybeer
 
 > ⛔️  Before you proceed, remove all references to Snapmaker or J1 from the PrintSettings, Filament Setting, and Printer Settings to avoid any remnants from the previous configuration imports.
 
+
+## [🎁 Coupon Codes](https://github.com/leandrolima-nyc/SnapmakerJ1/blob/main/readme.md#coupon-and-discount-codes) 🛍️
+
 ## Instructions for importing Profile
 
 ### Download
